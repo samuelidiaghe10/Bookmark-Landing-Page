@@ -12,6 +12,7 @@ function App() {
     const handleMenu = () => {
       if(toggle){
         document.body.style.overflowY = "hidden"
+        document.body.style.height = "100%"
       }
 
       else{
